@@ -2,13 +2,13 @@ import 'dart:async';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sixam_mart_delivery/api/api_client.dart';
-import 'package:sixam_mart_delivery/common/models/response_model.dart';
-import 'package:sixam_mart_delivery/features/address/domain/models/record_location_body_model.dart';
-import 'package:sixam_mart_delivery/features/profile/domain/models/profile_model.dart';
-import 'package:sixam_mart_delivery/features/profile/domain/repositories/profile_repository_interface.dart';
-import 'package:sixam_mart_delivery/util/app_constants.dart';
-import 'package:sixam_mart_delivery/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_express_delivery/api/api_client.dart';
+import 'package:eliyah_express_delivery/common/models/response_model.dart';
+import 'package:eliyah_express_delivery/features/address/domain/models/record_location_body_model.dart';
+import 'package:eliyah_express_delivery/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_express_delivery/features/profile/domain/repositories/profile_repository_interface.dart';
+import 'package:eliyah_express_delivery/util/app_constants.dart';
+import 'package:eliyah_express_delivery/features/splash/controllers/splash_controller.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
 class ProfileRepository implements ProfileRepositoryInterface {

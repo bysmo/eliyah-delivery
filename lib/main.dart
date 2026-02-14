@@ -1,16 +1,16 @@
 import 'dart:async';
 import 'package:flutter/services.dart';
-import 'package:sixam_mart_delivery/features/auth/controllers/auth_controller.dart';
-import 'package:sixam_mart_delivery/features/language/controllers/language_controller.dart';
-import 'package:sixam_mart_delivery/features/splash/controllers/splash_controller.dart';
-import 'package:sixam_mart_delivery/common/controllers/theme_controller.dart';
-import 'package:sixam_mart_delivery/features/notification/domain/models/notification_body_model.dart';
-import 'package:sixam_mart_delivery/helper/notification_helper.dart';
-import 'package:sixam_mart_delivery/helper/route_helper.dart';
-import 'package:sixam_mart_delivery/theme/dark_theme.dart';
-import 'package:sixam_mart_delivery/theme/light_theme.dart';
-import 'package:sixam_mart_delivery/util/app_constants.dart';
-import 'package:sixam_mart_delivery/util/messages.dart';
+import 'package:eliyah_express_delivery/features/auth/controllers/auth_controller.dart';
+import 'package:eliyah_express_delivery/features/language/controllers/language_controller.dart';
+import 'package:eliyah_express_delivery/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_express_delivery/common/controllers/theme_controller.dart';
+import 'package:eliyah_express_delivery/features/notification/domain/models/notification_body_model.dart';
+import 'package:eliyah_express_delivery/helper/notification_helper.dart';
+import 'package:eliyah_express_delivery/helper/route_helper.dart';
+import 'package:eliyah_express_delivery/theme/dark_theme.dart';
+import 'package:eliyah_express_delivery/theme/light_theme.dart';
+import 'package:eliyah_express_delivery/util/app_constants.dart';
+import 'package:eliyah_express_delivery/util/messages.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
@@ -26,10 +26,10 @@ Future<void> main() async {
   if(GetPlatform.isAndroid) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: "AIzaSyCc3OCd5I2xSlnftZ4bFAbuCzMhgQHLivA",
-        appId: "1:491987943015:android:fe79b69339834d5c8f1ec2",
-        messagingSenderId: "491987943015",
-        projectId: "stackmart-500c7",
+        apiKey: "AIzaSyBInIU5dzO0qlYG-ogbM3Q-wzNqWddItaU",
+        appId: "1:345708509965:android:89fcc07099f84332d20e44",
+        messagingSenderId: "345708509965",
+        projectId: "eliyah-express",
       ),
     );
   }else {

@@ -1,19 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixam_mart_delivery/common/widgets/custom_button_widget.dart';
-import 'package:sixam_mart_delivery/common/widgets/custom_card.dart';
-import 'package:sixam_mart_delivery/common/widgets/custom_loader.dart';
-import 'package:sixam_mart_delivery/features/disbursement/controllers/disbursement_controller.dart';
-import 'package:sixam_mart_delivery/features/disbursement/domain/models/disbursement_method_model.dart';
-import 'package:sixam_mart_delivery/features/disbursement/helper/disbursement_helper.dart';
-import 'package:sixam_mart_delivery/helper/route_helper.dart';
-import 'package:sixam_mart_delivery/helper/string_extension.dart';
-import 'package:sixam_mart_delivery/util/dimensions.dart';
-import 'package:sixam_mart_delivery/util/images.dart';
-import 'package:sixam_mart_delivery/util/styles.dart';
-import 'package:sixam_mart_delivery/common/widgets/custom_app_bar_widget.dart';
-import 'package:sixam_mart_delivery/features/my_account/widgets/confirm_dialog_widget.dart';
+import 'package:eliyah_express_delivery/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_express_delivery/common/widgets/custom_card.dart';
+import 'package:eliyah_express_delivery/common/widgets/custom_loader.dart';
+import 'package:eliyah_express_delivery/features/disbursement/controllers/disbursement_controller.dart';
+import 'package:eliyah_express_delivery/features/disbursement/domain/models/disbursement_method_model.dart';
+import 'package:eliyah_express_delivery/features/disbursement/helper/disbursement_helper.dart';
+import 'package:eliyah_express_delivery/helper/route_helper.dart';
+import 'package:eliyah_express_delivery/helper/string_extension.dart';
+import 'package:eliyah_express_delivery/util/dimensions.dart';
+import 'package:eliyah_express_delivery/util/images.dart';
+import 'package:eliyah_express_delivery/util/styles.dart';
+import 'package:eliyah_express_delivery/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_express_delivery/features/my_account/widgets/confirm_dialog_widget.dart';
 
 class WithdrawMethodScreen extends StatefulWidget {
   final bool isFromDashboard;

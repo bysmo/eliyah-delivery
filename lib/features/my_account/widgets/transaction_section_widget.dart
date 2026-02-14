@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixam_mart_delivery/features/my_account/controllers/my_account_controller.dart';
-import 'package:sixam_mart_delivery/helper/date_converter_helper.dart';
-import 'package:sixam_mart_delivery/helper/price_converter_helper.dart';
-import 'package:sixam_mart_delivery/helper/string_extension.dart';
-import 'package:sixam_mart_delivery/util/dimensions.dart';
-import 'package:sixam_mart_delivery/util/styles.dart';
+import 'package:eliyah_express_delivery/features/my_account/controllers/my_account_controller.dart';
+import 'package:eliyah_express_delivery/helper/date_converter_helper.dart';
+import 'package:eliyah_express_delivery/helper/price_converter_helper.dart';
+import 'package:eliyah_express_delivery/helper/string_extension.dart';
+import 'package:eliyah_express_delivery/util/dimensions.dart';
+import 'package:eliyah_express_delivery/util/styles.dart';
 
 class TransactionSectionWidget extends StatelessWidget {
   final MyAccountController myAccountController;

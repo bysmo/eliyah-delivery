@@ -1,13 +1,13 @@
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sixam_mart_delivery/common/models/response_model.dart';
-import 'package:sixam_mart_delivery/features/address/domain/models/record_location_body_model.dart';
-import 'package:sixam_mart_delivery/features/home/widgets/location_access_dialog.dart';
-import 'package:sixam_mart_delivery/features/profile/domain/models/profile_model.dart';
-import 'package:sixam_mart_delivery/features/profile/domain/repositories/profile_repository_interface.dart';
+import 'package:eliyah_express_delivery/common/models/response_model.dart';
+import 'package:eliyah_express_delivery/features/address/domain/models/record_location_body_model.dart';
+import 'package:eliyah_express_delivery/features/home/widgets/location_access_dialog.dart';
+import 'package:eliyah_express_delivery/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_express_delivery/features/profile/domain/repositories/profile_repository_interface.dart';
 import 'package:geocoding/geocoding.dart' as geo_coding;
-import 'package:sixam_mart_delivery/features/profile/domain/services/profile_service_interface.dart';
+import 'package:eliyah_express_delivery/features/profile/domain/services/profile_service_interface.dart';
 
 class ProfileService implements ProfileServiceInterface {
   final ProfileRepositoryInterface profileRepositoryInterface;

@@ -1,6 +1,6 @@
-import 'package:sixam_mart_delivery/features/my_account/domain/models/withdraw_method_model.dart';
-import 'package:sixam_mart_delivery/features/disbursement/domain/models/disbursement_method_model.dart' as disburse;
-import 'package:sixam_mart_delivery/features/disbursement/domain/models/disbursement_report_model.dart' as report;
+import 'package:eliyah_express_delivery/features/my_account/domain/models/withdraw_method_model.dart';
+import 'package:eliyah_express_delivery/features/disbursement/domain/models/disbursement_method_model.dart' as disburse;
+import 'package:eliyah_express_delivery/features/disbursement/domain/models/disbursement_report_model.dart' as report;
 
 abstract class DisbursementServiceInterface {
   Future<bool> addWithdraw(Map<String?, String> data);

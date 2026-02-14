@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import 'package:sixam_mart_delivery/api/api_client.dart';
-import 'package:sixam_mart_delivery/features/html/domain/repositories/html_repository_interface.dart';
-import 'package:sixam_mart_delivery/features/language/controllers/language_controller.dart';
-import 'package:sixam_mart_delivery/util/app_constants.dart';
+import 'package:eliyah_express_delivery/api/api_client.dart';
+import 'package:eliyah_express_delivery/features/html/domain/repositories/html_repository_interface.dart';
+import 'package:eliyah_express_delivery/features/language/controllers/language_controller.dart';
+import 'package:eliyah_express_delivery/util/app_constants.dart';
 
 class HtmlRepository implements HtmlRepositoryInterface {
   final ApiClient apiClient;

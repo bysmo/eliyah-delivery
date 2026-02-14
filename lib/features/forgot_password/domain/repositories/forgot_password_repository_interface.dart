@@ -1,6 +1,6 @@
-import 'package:sixam_mart_delivery/common/models/response_model.dart';
-import 'package:sixam_mart_delivery/features/profile/domain/models/profile_model.dart';
-import 'package:sixam_mart_delivery/interface/repository_interface.dart';
+import 'package:eliyah_express_delivery/common/models/response_model.dart';
+import 'package:eliyah_express_delivery/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_express_delivery/interface/repository_interface.dart';
 
 abstract class ForgotPasswordRepositoryInterface implements RepositoryInterface {
   Future<dynamic> changePassword(ProfileModel userInfoModel, String password);

@@ -1,15 +1,15 @@
 import 'dart:async';
-import 'package:sixam_mart_delivery/common/models/response_model.dart';
-import 'package:sixam_mart_delivery/features/auth/controllers/auth_controller.dart';
-import 'package:sixam_mart_delivery/features/splash/controllers/splash_controller.dart';
-import 'package:sixam_mart_delivery/features/address/domain/models/record_location_body_model.dart';
-import 'package:sixam_mart_delivery/features/profile/domain/models/profile_model.dart';
-import 'package:sixam_mart_delivery/helper/route_helper.dart';
-import 'package:sixam_mart_delivery/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_express_delivery/common/models/response_model.dart';
+import 'package:eliyah_express_delivery/features/auth/controllers/auth_controller.dart';
+import 'package:eliyah_express_delivery/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_express_delivery/features/address/domain/models/record_location_body_model.dart';
+import 'package:eliyah_express_delivery/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_express_delivery/helper/route_helper.dart';
+import 'package:eliyah_express_delivery/common/widgets/custom_snackbar_widget.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sixam_mart_delivery/features/profile/domain/services/profile_service_interface.dart';
+import 'package:eliyah_express_delivery/features/profile/domain/services/profile_service_interface.dart';
 
 class ProfileController extends GetxController implements GetxService {
   final ProfileServiceInterface profileServiceInterface;

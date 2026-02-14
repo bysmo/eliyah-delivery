@@ -1,7 +1,7 @@
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixam_mart_delivery/util/styles.dart';
+import 'package:eliyah_express_delivery/util/styles.dart';
 
 class CodePickerWidget extends StatefulWidget {
   final ValueChanged<CountryCode>? onChanged;
@@ -41,7 +41,7 @@ class CodePickerWidget extends StatefulWidget {
   const CodePickerWidget({
     this.onChanged,
     this.onInit,
-    this.initialSelection,
+    this.initialSelection = 'BF',
     this.favorite = const [],
     this.textStyle,
     this.padding = const EdgeInsets.all(8.0),

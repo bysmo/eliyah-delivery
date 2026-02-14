@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:sixam_mart_delivery/features/profile/domain/models/profile_model.dart';
-import 'package:sixam_mart_delivery/common/models/response_model.dart';
-import 'package:sixam_mart_delivery/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_express_delivery/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_express_delivery/common/models/response_model.dart';
+import 'package:eliyah_express_delivery/common/widgets/custom_snackbar_widget.dart';
 import 'package:get/get.dart';
-import 'package:sixam_mart_delivery/features/forgot_password/domain/services/forgot_password_service_interface.dart';
-import 'package:sixam_mart_delivery/helper/route_helper.dart';
+import 'package:eliyah_express_delivery/features/forgot_password/domain/services/forgot_password_service_interface.dart';
+import 'package:eliyah_express_delivery/helper/route_helper.dart';
 
 class ForgotPasswordController extends GetxController implements GetxService {
   final ForgotPasswordServiceInterface forgotPasswordServiceInterface;

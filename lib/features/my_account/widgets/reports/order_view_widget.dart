@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
-import 'package:sixam_mart_delivery/features/my_account/controllers/my_account_controller.dart';
-import 'package:sixam_mart_delivery/features/my_account/widgets/reports/earning_report_card.dart';
-import 'package:sixam_mart_delivery/util/dimensions.dart';
-import 'package:sixam_mart_delivery/util/styles.dart';
+import 'package:eliyah_express_delivery/features/my_account/controllers/my_account_controller.dart';
+import 'package:eliyah_express_delivery/features/my_account/widgets/reports/earning_report_card.dart';
+import 'package:eliyah_express_delivery/util/dimensions.dart';
+import 'package:eliyah_express_delivery/util/styles.dart';
 class OrderViewWidget extends StatelessWidget {
   final MyAccountController myAccountController;
   const OrderViewWidget({super.key, required this.myAccountController});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sixam_mart_delivery/util/app_constants.dart';
-import 'package:sixam_mart_delivery/util/dimensions.dart';
+import 'package:eliyah_express_delivery/util/app_constants.dart';
+import 'package:eliyah_express_delivery/util/dimensions.dart';
 
 const robotoRegular = TextStyle(
   fontFamily: AppConstants.fontFamily,

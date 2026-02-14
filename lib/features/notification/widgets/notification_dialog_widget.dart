@@ -1,8 +1,8 @@
-import 'package:sixam_mart_delivery/features/notification/domain/models/notification_model.dart';
-import 'package:sixam_mart_delivery/util/dimensions.dart';
-import 'package:sixam_mart_delivery/util/styles.dart';
+import 'package:eliyah_express_delivery/features/notification/domain/models/notification_model.dart';
+import 'package:eliyah_express_delivery/util/dimensions.dart';
+import 'package:eliyah_express_delivery/util/styles.dart';
 import 'package:flutter/material.dart';
-import 'package:sixam_mart_delivery/common/widgets/custom_image_widget.dart';
+import 'package:eliyah_express_delivery/common/widgets/custom_image_widget.dart';
 
 class NotificationDialogWidget extends StatelessWidget {
   final NotificationModel notificationModel;

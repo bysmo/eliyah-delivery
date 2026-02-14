@@ -1,10 +1,10 @@
 import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sixam_mart_delivery/features/order/controllers/order_controller.dart';
-import 'package:sixam_mart_delivery/util/dimensions.dart';
-import 'package:sixam_mart_delivery/util/styles.dart';
-import 'package:sixam_mart_delivery/features/order/widgets/camera_button_sheet_widget.dart';
+import 'package:eliyah_express_delivery/features/order/controllers/order_controller.dart';
+import 'package:eliyah_express_delivery/util/dimensions.dart';
+import 'package:eliyah_express_delivery/util/styles.dart';
+import 'package:eliyah_express_delivery/features/order/widgets/camera_button_sheet_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

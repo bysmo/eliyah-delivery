@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixam_mart_delivery/common/widgets/custom_snackbar_widget.dart';
-import 'package:sixam_mart_delivery/common/widgets/paginated_list_view_widget.dart';
-import 'package:sixam_mart_delivery/features/my_account/controllers/my_account_controller.dart';
-import 'package:sixam_mart_delivery/features/my_account/widgets/account/point_filter_bottom_sheet_widget.dart';
-import 'package:sixam_mart_delivery/features/my_account/widgets/account/point_to_wallet_money_widget.dart';
-import 'package:sixam_mart_delivery/features/profile/controllers/profile_controller.dart';
-import 'package:sixam_mart_delivery/features/splash/controllers/splash_controller.dart';
-import 'package:sixam_mart_delivery/helper/date_converter_helper.dart';
-import 'package:sixam_mart_delivery/util/dimensions.dart';
-import 'package:sixam_mart_delivery/util/images.dart';
-import 'package:sixam_mart_delivery/util/styles.dart';
+import 'package:eliyah_express_delivery/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_express_delivery/common/widgets/paginated_list_view_widget.dart';
+import 'package:eliyah_express_delivery/features/my_account/controllers/my_account_controller.dart';
+import 'package:eliyah_express_delivery/features/my_account/widgets/account/point_filter_bottom_sheet_widget.dart';
+import 'package:eliyah_express_delivery/features/my_account/widgets/account/point_to_wallet_money_widget.dart';
+import 'package:eliyah_express_delivery/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_express_delivery/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_express_delivery/helper/date_converter_helper.dart';
+import 'package:eliyah_express_delivery/util/dimensions.dart';
+import 'package:eliyah_express_delivery/util/images.dart';
+import 'package:eliyah_express_delivery/util/styles.dart';
 
 class MyPointView extends StatefulWidget {
   const MyPointView({super.key});

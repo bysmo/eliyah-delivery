@@ -15,7 +15,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.sixamtech.sixam_mart_delivery_app"
+    namespace = "com.eliyah.express"
     compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
@@ -30,7 +30,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.sixamtech.sixam_mart_delivery_app"
+        applicationId = "com.eliyah.express"
         minSdk = flutter.minSdkVersion
         targetSdk = 36
         versionCode = flutter.versionCode

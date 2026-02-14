@@ -1,8 +1,8 @@
    
 import 'package:get/get_connect/http/src/response/response.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sixam_mart_delivery/api/api_client.dart';
-import 'package:sixam_mart_delivery/util/app_constants.dart';
+import 'package:eliyah_express_delivery/api/api_client.dart';
+import 'package:eliyah_express_delivery/util/app_constants.dart';
 import 'refer_and_earn_repository_interface.dart';
 
 class ReferEarnRepository implements ReferEarnRepositoryInterface{

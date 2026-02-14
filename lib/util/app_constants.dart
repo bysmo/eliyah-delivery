@@ -1,12 +1,12 @@
-import 'package:sixam_mart_delivery/features/language/domain/models/language_model.dart';
-import 'package:sixam_mart_delivery/util/images.dart';
+import 'package:eliyah_express_delivery/features/language/domain/models/language_model.dart';
+import 'package:eliyah_express_delivery/util/images.dart';
 
 class AppConstants {
-  static const String appName = '6amMart Delivery';
+  static const String appName = 'Eliyah-Livreur';
   static const double appVersion = 3.6; ///Flutter sdk 3.38.5
   static const String fontFamily = 'Roboto';
 
-  static const String baseUrl = 'https://6ammart-admin.6amtech.com';
+  static const String baseUrl = 'https://eliyah.aladints.com';
 
   static const String configUri = '/api/v1/config';
   static const String forgetPasswordUri = '/api/v1/auth/delivery-man/forgot-password';
@@ -69,20 +69,20 @@ class AppConstants {
   static const String searchConversationListUri = '/api/v1/delivery-man/message/search-list';
 
   /// Shared Key
-  static const String theme = 'sixam_mart_delivery_theme';
-  static const String token = 'sixam_mart_delivery_token';
-  static const String countryCode = 'sixam_mart_delivery_country_code';
-  static const String languageCode = 'sixam_mart_delivery_language_code';
+  static const String theme = 'eliyah_express_delivery_theme';
+  static const String token = 'eliyah_express_delivery_token';
+  static const String countryCode = 'eliyah_express_delivery_country_code';
+  static const String languageCode = 'eliyah_express_delivery_language_code';
   static const String cacheCountryCode = 'cache_country_code';
   static const String cacheLanguageCode = 'cache_language_code';
-  static const String userPassword = 'sixam_mart_delivery_user_password';
-  static const String userAddress = 'sixam_mart_delivery_user_address';
-  static const String userNumber = 'sixam_mart_delivery_user_number';
-  static const String userCountryDialCode = 'sixam_mart_delivery_user_country_dial_code';
-  static const String userCountryCode = 'sixam_mart_delivery_user_country_code';
-  static const String notification = 'sixam_mart_delivery_notification';
-  static const String notificationCount = 'sixam_mart_delivery_notification_count';
-  static const String ignoreList = 'sixam_mart_delivery_ignore_list';
+  static const String userPassword = 'eliyah_express_delivery_user_password';
+  static const String userAddress = 'eliyah_express_delivery_user_address';
+  static const String userNumber = 'eliyah_express_delivery_user_number';
+  static const String userCountryDialCode = 'eliyah_express_delivery_user_country_dial_code';
+  static const String userCountryCode = 'eliyah_express_delivery_user_country_code';
+  static const String notification = 'eliyah_express_delivery_notification';
+  static const String notificationCount = 'eliyah_express_delivery_notification_count';
+  static const String ignoreList = 'eliyah_express_delivery_ignore_list';
   static const String topic = 'all_zone_delivery_man';
   static const String zoneTopic = 'zone_topic';
   static const String vehicleWiseTopic = 'vehicle_wise_topic';
@@ -111,6 +111,7 @@ class AppConstants {
   static const String vendor = 'vendor';
 
   static List<LanguageModel> languages = [
+    LanguageModel(imageUrl: Images.french, languageName: 'Français', countryCode: 'FR', languageCode: 'fr'),
     LanguageModel(imageUrl: Images.english, languageName: 'English', countryCode: 'US', languageCode: 'en'),
     LanguageModel(imageUrl: Images.arabic, languageName: 'Arabic', countryCode: 'SA', languageCode: 'ar'),
     LanguageModel(imageUrl: Images.spanish, languageName: 'Spanish', countryCode: 'ES', languageCode: 'es'),

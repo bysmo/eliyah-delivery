@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sixam_mart_delivery/util/dimensions.dart';
+import 'package:eliyah_express_delivery/util/dimensions.dart';
 
 class CustomLoaderWidget extends StatelessWidget {
   const CustomLoaderWidget({super.key});

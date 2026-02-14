@@ -1,11 +1,11 @@
 {
-    "name": "eFood Multi-vendor",
-    "short_name": "eFood Multi-vendor",
+    "name": "Eliyah-Livreur",
+    "short_name": "Eliyah-Livreur",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A multi-vendor e-commerce web app.",
+    "description": "Application de livraison Eliyah-Express.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

@@ -1,4 +1,4 @@
-import 'package:sixam_mart_delivery/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_express_delivery/features/splash/controllers/splash_controller.dart';
 import 'package:get/get.dart';
 
 class PriceConverterHelper {

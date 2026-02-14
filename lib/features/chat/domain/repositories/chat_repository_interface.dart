@@ -1,5 +1,5 @@
-import 'package:sixam_mart_delivery/api/api_client.dart';
-import 'package:sixam_mart_delivery/interface/repository_interface.dart';
+import 'package:eliyah_express_delivery/api/api_client.dart';
+import 'package:eliyah_express_delivery/interface/repository_interface.dart';
 
 abstract class ChatRepositoryInterface implements RepositoryInterface {
   Future<dynamic> getConversationList(int offset);

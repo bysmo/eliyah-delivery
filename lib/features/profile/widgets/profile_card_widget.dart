@@ -1,5 +1,5 @@
-import 'package:sixam_mart_delivery/util/dimensions.dart';
-import 'package:sixam_mart_delivery/util/styles.dart';
+import 'package:eliyah_express_delivery/util/dimensions.dart';
+import 'package:eliyah_express_delivery/util/styles.dart';
 import 'package:flutter/material.dart';
 
 class ProfileCardWidget extends StatelessWidget {

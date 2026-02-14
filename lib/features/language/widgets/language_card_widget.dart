@@ -1,9 +1,9 @@
-import 'package:sixam_mart_delivery/features/language/domain/models/language_model.dart';
-import 'package:sixam_mart_delivery/util/styles.dart';
+import 'package:eliyah_express_delivery/features/language/domain/models/language_model.dart';
+import 'package:eliyah_express_delivery/util/styles.dart';
 import 'package:flutter/material.dart';
-import 'package:sixam_mart_delivery/features/language/controllers/language_controller.dart';
-import 'package:sixam_mart_delivery/util/app_constants.dart';
-import 'package:sixam_mart_delivery/util/dimensions.dart';
+import 'package:eliyah_express_delivery/features/language/controllers/language_controller.dart';
+import 'package:eliyah_express_delivery/util/app_constants.dart';
+import 'package:eliyah_express_delivery/util/dimensions.dart';
 
 class LanguageCardWidget extends StatelessWidget {
   final LanguageModel languageModel;

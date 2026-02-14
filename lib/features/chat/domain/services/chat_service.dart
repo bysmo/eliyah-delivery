@@ -1,11 +1,11 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:sixam_mart_delivery/api/api_client.dart';
-import 'package:sixam_mart_delivery/features/chat/domain/models/conversation_model.dart';
-import 'package:sixam_mart_delivery/features/chat/domain/models/message_model.dart';
-import 'package:sixam_mart_delivery/features/chat/domain/repositories/chat_repository_interface.dart';
-import 'package:sixam_mart_delivery/features/chat/domain/services/chat_service_interface.dart';
-import 'package:sixam_mart_delivery/features/notification/domain/models/notification_body_model.dart';
-import 'package:sixam_mart_delivery/util/app_constants.dart';
+import 'package:eliyah_express_delivery/api/api_client.dart';
+import 'package:eliyah_express_delivery/features/chat/domain/models/conversation_model.dart';
+import 'package:eliyah_express_delivery/features/chat/domain/models/message_model.dart';
+import 'package:eliyah_express_delivery/features/chat/domain/repositories/chat_repository_interface.dart';
+import 'package:eliyah_express_delivery/features/chat/domain/services/chat_service_interface.dart';
+import 'package:eliyah_express_delivery/features/notification/domain/models/notification_body_model.dart';
+import 'package:eliyah_express_delivery/util/app_constants.dart';
 
 class ChatService implements ChatServiceInterface {
   final ChatRepositoryInterface chatRepositoryInterface;
