@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:eliyah_express_delivery/features/auth/controllers/auth_controller.dart';
 import 'package:eliyah_express_delivery/features/language/controllers/language_controller.dart';
@@ -18,16 +19,25 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:get/get.dart';
 import 'helper/get_di.dart' as di;
 
+class MyHttpOverrides extends HttpOverrides {
+  @override
+  HttpClient createHttpClient(SecurityContext? context) {
+    return super.createHttpClient(context)
+      ..badCertificateCallback = (X509Certificate cert, String host, int port) => true;
+  }
+}
+
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
 
 Future<void> main() async {
+  HttpOverrides.global = MyHttpOverrides();
   WidgetsFlutterBinding.ensureInitialized();
 
   if(GetPlatform.isAndroid) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
         apiKey: "AIzaSyBInIU5dzO0qlYG-ogbM3Q-wzNqWddItaU",
-        appId: "1:345708509965:android:89fcc07099f84332d20e44",
+        appId: "1:345708509965:android:560d69b5a16efe43d20e44",
         messagingSenderId: "345708509965",
         projectId: "eliyah-express",
       ),

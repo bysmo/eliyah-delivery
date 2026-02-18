@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:345708509965:android:89fcc07099f84332d20e44",
+        "mobilesdk_app_id": "1:345708509965:android:560d69b5a16efe43d20e44",
         "android_client_info": {
-          "package_name": "com.eliyah.express"
+          "package_name": "com.eliyah.express.livreur"
         }
       },
       "oauth_client": [],
