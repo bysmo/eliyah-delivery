@@ -36,8 +36,7 @@
     </queries>
 
     <application
-        tools:replace="android:label"
-        android:label="Eliyah Livreur"
+        android:label="Eliyah Express"
         android:name="${applicationName}"
         android:extractNativeLibs="true"
         android:requestLegacyExternalStorage="true"

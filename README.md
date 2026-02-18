@@ -1,4 +1,4 @@
-# 🚚 Eliyah-Livreur
+# 🚚 Eliyah Express
 
 <div align="center">
 
@@ -19,7 +19,7 @@
 
 ## 📱 À propos
 
-**Eliyah-Livreur** est l'application mobile dédiée aux livreurs de la plateforme **Eliyah-Express**. Elle permet aux livreurs de gérer leurs livraisons en temps réel, de suivre leurs gains, et d'optimiser leurs trajets de livraison.
+**Eliyah-Express** est l'application mobile dédiée aux livreurs de la plateforme **Eliyah-Market**. Elle permet aux livreurs de gérer leurs livraisons en temps réel, de suivre leurs gains, et d'optimiser leurs trajets de livraison.
 
 ### 🎯 Objectif
 

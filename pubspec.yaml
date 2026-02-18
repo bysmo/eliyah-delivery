@@ -1,5 +1,5 @@
-name: eliyah_express_delivery
-description: Eliyah-Livreur - Application de livraison.
+name: eliyah_express
+description: Eliyah Express - Application de livraison.
 publish_to: 'none' #
 version: 1.0.0+1
 

@@ -2,7 +2,7 @@ import 'package:eliyah_express_delivery/features/language/domain/models/language
 import 'package:eliyah_express_delivery/util/images.dart';
 
 class AppConstants {
-  static const String appName = 'Eliyah-Livreur';
+  static const String appName = 'Eliyah Express';
   static const double appVersion = 3.6; ///Flutter sdk 3.38.5
   static const String fontFamily = 'Roboto';
 

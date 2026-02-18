@@ -1,11 +1,11 @@
 {
-    "name": "Eliyah-Livreur",
-    "short_name": "Eliyah-Livreur",
+    "name": "Eliyah Express",
+    "short_name": "Eliyah Express",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Application de livraison Eliyah-Express.",
+    "description": "Application de livraison Eliyah Express.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
