@@ -1,4 +1,4 @@
-import 'package:eliyah_express_delivery/features/address/domain/models/zone_response_model.dart';
+import 'package:eliyah_express/features/address/domain/models/zone_response_model.dart';
 
 class AddressModel {
   int? id;

@@ -1,6 +1,6 @@
   import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/features/refer_and_earn/domain/models/refer_and_earn_model.dart';
+import 'package:eliyah_express/features/refer_and_earn/domain/models/refer_and_earn_model.dart';
   import '../domain/services/refer_and_earn_service_interface.dart';
 
   class ReferAndEarnController extends GetxController implements GetxService{

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/features/disbursement/controllers/disbursement_controller.dart';
-import 'package:eliyah_express_delivery/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_express_delivery/features/splash/controllers/splash_controller.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/features/disbursement/widgets/withdraw_method_attention_dialog_widget.dart';
+import 'package:eliyah_express/features/disbursement/controllers/disbursement_controller.dart';
+import 'package:eliyah_express/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_express/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/features/disbursement/widgets/withdraw_method_attention_dialog_widget.dart';
 
 class DisbursementHelper {
 

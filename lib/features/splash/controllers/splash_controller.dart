@@ -1,6 +1,6 @@
-import 'package:eliyah_express_delivery/common/models/config_model.dart';
+import 'package:eliyah_express/common/models/config_model.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/features/splash/domain/services/splash_service_interface.dart';
+import 'package:eliyah_express/features/splash/domain/services/splash_service_interface.dart';
 
 class SplashController extends GetxController implements GetxService {
   final SplashServiceInterface splashServiceInterface;

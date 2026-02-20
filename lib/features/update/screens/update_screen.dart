@@ -1,9 +1,9 @@
-import 'package:eliyah_express_delivery/features/splash/controllers/splash_controller.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/images.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_button_widget.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_express/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/images.dart';
+import 'package:eliyah_express/util/styles.dart';
+import 'package:eliyah_express/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_express/common/widgets/custom_snackbar_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher_string.dart';

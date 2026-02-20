@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/earning_report_model.dart';
-import 'package:eliyah_express_delivery/helper/date_converter_helper.dart';
-import 'package:eliyah_express_delivery/helper/price_converter_helper.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
+import 'package:eliyah_express/features/my_account/domain/models/earning_report_model.dart';
+import 'package:eliyah_express/helper/date_converter_helper.dart';
+import 'package:eliyah_express/helper/price_converter_helper.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/styles.dart';
 
 class EarningHistoryBottomSheet extends StatelessWidget {
   final Data? data;

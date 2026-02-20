@@ -1,15 +1,15 @@
 import 'dart:async';
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:eliyah_express_delivery/features/auth/controllers/auth_controller.dart';
-import 'package:eliyah_express_delivery/features/dashboard/screens/dashboard_screen.dart';
-import 'package:eliyah_express_delivery/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_express_delivery/features/splash/controllers/splash_controller.dart';
-import 'package:eliyah_express_delivery/features/notification/domain/models/notification_body_model.dart';
-import 'package:eliyah_express_delivery/helper/route_helper.dart';
-import 'package:eliyah_express_delivery/util/app_constants.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/images.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
+import 'package:eliyah_express/features/auth/controllers/auth_controller.dart';
+import 'package:eliyah_express/features/dashboard/screens/dashboard_screen.dart';
+import 'package:eliyah_express/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_express/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_express/features/notification/domain/models/notification_body_model.dart';
+import 'package:eliyah_express/helper/route_helper.dart';
+import 'package:eliyah_express/util/app_constants.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/images.dart';
+import 'package:eliyah_express/util/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

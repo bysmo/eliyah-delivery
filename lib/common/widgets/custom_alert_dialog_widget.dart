@@ -1,6 +1,6 @@
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/styles.dart';
+import 'package:eliyah_express/common/widgets/custom_button_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,4 +1,4 @@
-import 'package:eliyah_express_delivery/features/notification/domain/models/notification_model.dart';
+import 'package:eliyah_express/features/notification/domain/models/notification_model.dart';
 
 abstract class NotificationServiceInterface {
   Future<List<NotificationModel>?> getNotificationList();

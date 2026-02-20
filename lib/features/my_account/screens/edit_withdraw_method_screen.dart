@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_card.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_text_field_widget.dart';
-import 'package:eliyah_express_delivery/features/disbursement/controllers/disbursement_controller.dart';
-import 'package:eliyah_express_delivery/features/disbursement/domain/models/disbursement_method_model.dart';
-import 'package:eliyah_express_delivery/helper/date_converter_helper.dart';
-import 'package:eliyah_express_delivery/helper/string_extension.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_app_bar_widget.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_button_widget.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_dropdown_widget.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_express/common/widgets/custom_card.dart';
+import 'package:eliyah_express/common/widgets/custom_text_field_widget.dart';
+import 'package:eliyah_express/features/disbursement/controllers/disbursement_controller.dart';
+import 'package:eliyah_express/features/disbursement/domain/models/disbursement_method_model.dart';
+import 'package:eliyah_express/helper/date_converter_helper.dart';
+import 'package:eliyah_express/helper/string_extension.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/styles.dart';
+import 'package:eliyah_express/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_express/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_express/common/widgets/custom_dropdown_widget.dart';
+import 'package:eliyah_express/common/widgets/custom_snackbar_widget.dart';
 
 class EditWithdrawMethodScreen extends StatefulWidget {
   final Methods method;

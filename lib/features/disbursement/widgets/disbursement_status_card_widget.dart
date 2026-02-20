@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/helper/price_converter_helper.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/images.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
+import 'package:eliyah_express/helper/price_converter_helper.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/images.dart';
+import 'package:eliyah_express/util/styles.dart';
 import 'package:just_the_tooltip/just_the_tooltip.dart';
 
 class DisbursementStatusCardWidget extends StatelessWidget {

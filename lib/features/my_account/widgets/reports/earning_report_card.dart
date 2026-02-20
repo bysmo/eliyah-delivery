@@ -1,18 +1,18 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_bottom_sheet_widget.dart';
-import 'package:eliyah_express_delivery/features/my_account/controllers/my_account_controller.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/earning_report_model.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/loyalty_report_model.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/referral_report_model.dart';
-import 'package:eliyah_express_delivery/features/my_account/widgets/earning_history_bottom_sheet.dart';
-import 'package:eliyah_express_delivery/features/my_account/widgets/loyalty_history_bottom_sheet.dart';
-import 'package:eliyah_express_delivery/features/my_account/widgets/referral_history_bottom_sheet.dart';
-import 'package:eliyah_express_delivery/helper/date_converter_helper.dart';
-import 'package:eliyah_express_delivery/helper/price_converter_helper.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
+import 'package:eliyah_express/common/widgets/custom_bottom_sheet_widget.dart';
+import 'package:eliyah_express/features/my_account/controllers/my_account_controller.dart';
+import 'package:eliyah_express/features/my_account/domain/models/earning_report_model.dart';
+import 'package:eliyah_express/features/my_account/domain/models/loyalty_report_model.dart';
+import 'package:eliyah_express/features/my_account/domain/models/referral_report_model.dart';
+import 'package:eliyah_express/features/my_account/widgets/earning_history_bottom_sheet.dart';
+import 'package:eliyah_express/features/my_account/widgets/loyalty_history_bottom_sheet.dart';
+import 'package:eliyah_express/features/my_account/widgets/referral_history_bottom_sheet.dart';
+import 'package:eliyah_express/helper/date_converter_helper.dart';
+import 'package:eliyah_express/helper/price_converter_helper.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/styles.dart';
 
 class EarningReportCard extends StatelessWidget {
   final int index;

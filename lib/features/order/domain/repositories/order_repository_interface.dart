@@ -1,8 +1,8 @@
-import 'package:eliyah_express_delivery/api/api_client.dart';
-import 'package:eliyah_express_delivery/features/order/domain/models/ignore_model.dart';
-import 'package:eliyah_express_delivery/features/order/domain/models/parcel_cancellation_reasons_model.dart';
-import 'package:eliyah_express_delivery/features/order/domain/models/update_status_body_model.dart';
-import 'package:eliyah_express_delivery/interface/repository_interface.dart';
+import 'package:eliyah_express/api/api_client.dart';
+import 'package:eliyah_express/features/order/domain/models/ignore_model.dart';
+import 'package:eliyah_express/features/order/domain/models/parcel_cancellation_reasons_model.dart';
+import 'package:eliyah_express/features/order/domain/models/update_status_body_model.dart';
+import 'package:eliyah_express/interface/repository_interface.dart';
 
 abstract class OrderRepositoryInterface implements RepositoryInterface {
   Future<dynamic> getCancelReasons();

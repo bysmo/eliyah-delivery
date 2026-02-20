@@ -1,7 +1,7 @@
-import 'package:eliyah_express_delivery/features/auth/controllers/auth_controller.dart';
-import 'package:eliyah_express_delivery/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_express_delivery/helper/route_helper.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_express/features/auth/controllers/auth_controller.dart';
+import 'package:eliyah_express/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_express/helper/route_helper.dart';
+import 'package:eliyah_express/common/widgets/custom_snackbar_widget.dart';
 import 'package:get/get.dart';
 
 class ApiChecker {

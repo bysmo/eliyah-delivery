@@ -1,4 +1,4 @@
-import 'package:eliyah_express_delivery/features/chat/domain/models/conversation_model.dart';
+import 'package:eliyah_express/features/chat/domain/models/conversation_model.dart';
 
 class MessageModel {
   int? totalSize;

@@ -1,9 +1,9 @@
-import 'package:eliyah_express_delivery/features/language/domain/models/language_model.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
+import 'package:eliyah_express/features/language/domain/models/language_model.dart';
+import 'package:eliyah_express/util/styles.dart';
 import 'package:flutter/material.dart';
-import 'package:eliyah_express_delivery/features/language/controllers/language_controller.dart';
-import 'package:eliyah_express_delivery/util/app_constants.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
+import 'package:eliyah_express/features/language/controllers/language_controller.dart';
+import 'package:eliyah_express/util/app_constants.dart';
+import 'package:eliyah_express/util/dimensions.dart';
 
 class LanguageCardWidget extends StatelessWidget {
   final LanguageModel languageModel;

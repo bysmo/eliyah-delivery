@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/features/my_account/controllers/my_account_controller.dart';
-import 'package:eliyah_express_delivery/helper/price_converter_helper.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_express/features/my_account/controllers/my_account_controller.dart';
+import 'package:eliyah_express/helper/price_converter_helper.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/styles.dart';
+import 'package:eliyah_express/common/widgets/custom_app_bar_widget.dart';
 
 class WalletProvidedHistoryScreen extends StatefulWidget {
   const WalletProvidedHistoryScreen({super.key});

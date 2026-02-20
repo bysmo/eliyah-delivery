@@ -1,11 +1,11 @@
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_express_delivery/api/api_client.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_snackbar_widget.dart';
-import 'package:eliyah_express_delivery/features/auth/domain/models/delivery_man_body_model.dart';
-import 'package:eliyah_express_delivery/features/auth/domain/models/vehicle_model.dart';
-import 'package:eliyah_express_delivery/features/auth/domain/repositories/auth_repository_interface.dart';
-import 'package:eliyah_express_delivery/features/auth/domain/services/auth_service_interface.dart';
+import 'package:eliyah_express/api/api_client.dart';
+import 'package:eliyah_express/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_express/features/auth/domain/models/delivery_man_body_model.dart';
+import 'package:eliyah_express/features/auth/domain/models/vehicle_model.dart';
+import 'package:eliyah_express/features/auth/domain/repositories/auth_repository_interface.dart';
+import 'package:eliyah_express/features/auth/domain/services/auth_service_interface.dart';
 
 class AuthService implements AuthServiceInterface {
   final AuthRepositoryInterface authRepositoryInterface;

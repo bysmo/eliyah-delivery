@@ -1,7 +1,7 @@
-import 'package:eliyah_express_delivery/features/order/controllers/order_controller.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_app_bar_widget.dart';
-import 'package:eliyah_express_delivery/features/order/widgets/history_order_widget.dart';
+import 'package:eliyah_express/features/order/controllers/order_controller.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_express/features/order/widgets/history_order_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

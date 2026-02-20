@@ -1,10 +1,10 @@
-import 'package:eliyah_express_delivery/features/language/widgets/language_card_widget.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
+import 'package:eliyah_express/features/language/widgets/language_card_widget.dart';
+import 'package:eliyah_express/util/styles.dart';
 import 'package:flutter/material.dart';
-import 'package:eliyah_express_delivery/features/language/controllers/language_controller.dart';
-import 'package:eliyah_express_delivery/util/app_constants.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_express/features/language/controllers/language_controller.dart';
+import 'package:eliyah_express/util/app_constants.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/common/widgets/custom_button_widget.dart';
 import 'package:get/get.dart';
 
 class LanguageBottomSheetWidget extends StatefulWidget {

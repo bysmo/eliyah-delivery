@@ -1,11 +1,11 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_express_delivery/api/api_client.dart';
-import 'package:eliyah_express_delivery/features/chat/domain/models/conversation_model.dart';
-import 'package:eliyah_express_delivery/features/chat/domain/models/message_model.dart';
-import 'package:eliyah_express_delivery/features/chat/domain/repositories/chat_repository_interface.dart';
-import 'package:eliyah_express_delivery/features/chat/domain/services/chat_service_interface.dart';
-import 'package:eliyah_express_delivery/features/notification/domain/models/notification_body_model.dart';
-import 'package:eliyah_express_delivery/util/app_constants.dart';
+import 'package:eliyah_express/api/api_client.dart';
+import 'package:eliyah_express/features/chat/domain/models/conversation_model.dart';
+import 'package:eliyah_express/features/chat/domain/models/message_model.dart';
+import 'package:eliyah_express/features/chat/domain/repositories/chat_repository_interface.dart';
+import 'package:eliyah_express/features/chat/domain/services/chat_service_interface.dart';
+import 'package:eliyah_express/features/notification/domain/models/notification_body_model.dart';
+import 'package:eliyah_express/util/app_constants.dart';
 
 class ChatService implements ChatServiceInterface {
   final ChatRepositoryInterface chatRepositoryInterface;

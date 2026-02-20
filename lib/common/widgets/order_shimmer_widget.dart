@@ -1,5 +1,5 @@
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/images.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/images.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
 

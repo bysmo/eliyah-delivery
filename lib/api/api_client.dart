@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
-import 'package:eliyah_express_delivery/api/api_checker.dart';
-import 'package:eliyah_express_delivery/common/models/error_response.dart';
-import 'package:eliyah_express_delivery/util/app_constants.dart';
+import 'package:eliyah_express/api/api_checker.dart';
+import 'package:eliyah_express/common/models/error_response.dart';
+import 'package:eliyah_express/util/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';

@@ -2,12 +2,12 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/helper/route_helper.dart';
+import 'package:eliyah_express/helper/route_helper.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:eliyah_express_delivery/util/app_constants.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_app_bar_widget.dart';
-import 'package:eliyah_express_delivery/features/my_account/widgets/fund_payment_dialog_widget.dart';
+import 'package:eliyah_express/util/app_constants.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_express/features/my_account/widgets/fund_payment_dialog_widget.dart';
 
 class PaymentScreen extends StatefulWidget {
   final String? redirectUrl;

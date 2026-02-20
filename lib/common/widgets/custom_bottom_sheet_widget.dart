@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
+import 'package:eliyah_express/util/dimensions.dart';
 
 void showCustomBottomSheet({required Widget child, double? maxHeight, bool useGetX = true}) {
   useGetX ? Get.bottomSheet(

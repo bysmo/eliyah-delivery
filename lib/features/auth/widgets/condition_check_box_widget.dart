@@ -1,9 +1,9 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/features/auth/controllers/auth_controller.dart';
-import 'package:eliyah_express_delivery/helper/route_helper.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
+import 'package:eliyah_express/features/auth/controllers/auth_controller.dart';
+import 'package:eliyah_express/helper/route_helper.dart';
+import 'package:eliyah_express/util/styles.dart';
 
 class ConditionCheckBoxWidget extends StatelessWidget {
   final AuthController authController;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/styles.dart';
 
 class SearchFieldWidget extends StatefulWidget {
   final TextEditingController controller;

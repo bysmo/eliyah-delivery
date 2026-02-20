@@ -1,8 +1,8 @@
-import 'package:eliyah_express_delivery/features/order/controllers/order_controller.dart';
-import 'package:eliyah_express_delivery/helper/price_converter_helper.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_express/features/order/controllers/order_controller.dart';
+import 'package:eliyah_express/helper/price_converter_helper.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/styles.dart';
+import 'package:eliyah_express/common/widgets/custom_button_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

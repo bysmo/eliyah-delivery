@@ -1,8 +1,8 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_express_delivery/api/api_client.dart';
-import 'package:eliyah_express_delivery/features/chat/domain/models/conversation_model.dart';
-import 'package:eliyah_express_delivery/features/chat/domain/models/message_model.dart';
-import 'package:eliyah_express_delivery/features/notification/domain/models/notification_body_model.dart';
+import 'package:eliyah_express/api/api_client.dart';
+import 'package:eliyah_express/features/chat/domain/models/conversation_model.dart';
+import 'package:eliyah_express/features/chat/domain/models/message_model.dart';
+import 'package:eliyah_express/features/notification/domain/models/notification_body_model.dart';
 
 abstract class ChatServiceInterface {
   Future<ConversationsModel?> getConversationList(int offset);

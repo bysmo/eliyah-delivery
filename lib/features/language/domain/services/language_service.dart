@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:eliyah_express_delivery/features/language/domain/models/language_model.dart';
-import 'package:eliyah_express_delivery/features/language/domain/repositories/language_repository_interface.dart';
-import 'package:eliyah_express_delivery/features/language/domain/services/language_service_interface.dart';
+import 'package:eliyah_express/features/language/domain/models/language_model.dart';
+import 'package:eliyah_express/features/language/domain/repositories/language_repository_interface.dart';
+import 'package:eliyah_express/features/language/domain/services/language_service_interface.dart';
 
 class LanguageService implements LanguageServiceInterface {
   final LanguageRepositoryInterface languageRepositoryInterface;

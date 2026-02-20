@@ -4,17 +4,17 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:open_file/open_file.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:eliyah_express_delivery/api/api_checker.dart';
-import 'package:eliyah_express_delivery/common/models/response_model.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/earning_report_model.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/loyalty_point_model.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/loyalty_report_model.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/referral_report_model.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/wallet_payment_model.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_snackbar_widget.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/withdraw_request_model.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/services/my_account_service_interface.dart';
-import 'package:eliyah_express_delivery/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_express/api/api_checker.dart';
+import 'package:eliyah_express/common/models/response_model.dart';
+import 'package:eliyah_express/features/my_account/domain/models/earning_report_model.dart';
+import 'package:eliyah_express/features/my_account/domain/models/loyalty_point_model.dart';
+import 'package:eliyah_express/features/my_account/domain/models/loyalty_report_model.dart';
+import 'package:eliyah_express/features/my_account/domain/models/referral_report_model.dart';
+import 'package:eliyah_express/features/my_account/domain/models/wallet_payment_model.dart';
+import 'package:eliyah_express/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_express/features/my_account/domain/models/withdraw_request_model.dart';
+import 'package:eliyah_express/features/my_account/domain/services/my_account_service_interface.dart';
+import 'package:eliyah_express/features/profile/controllers/profile_controller.dart';
 
 class MyAccountController extends GetxController implements GetxService {
   final MyAccountServiceInterface myAccountServiceInterface;

@@ -1,4 +1,4 @@
-import 'package:eliyah_express_delivery/interface/repository_interface.dart';
+import 'package:eliyah_express/interface/repository_interface.dart';
 
 abstract class HtmlRepositoryInterface extends RepositoryInterface {
   Future<dynamic> getHtmlText(bool isPrivacyPolicy);

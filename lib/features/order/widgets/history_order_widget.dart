@@ -1,9 +1,9 @@
-import 'package:eliyah_express_delivery/features/order/domain/models/order_model.dart';
-import 'package:eliyah_express_delivery/helper/date_converter_helper.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_image_widget.dart';
-import 'package:eliyah_express_delivery/features/order/screens/order_details_screen.dart';
+import 'package:eliyah_express/features/order/domain/models/order_model.dart';
+import 'package:eliyah_express/helper/date_converter_helper.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/styles.dart';
+import 'package:eliyah_express/common/widgets/custom_image_widget.dart';
+import 'package:eliyah_express/features/order/screens/order_details_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

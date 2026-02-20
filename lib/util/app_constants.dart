@@ -1,5 +1,5 @@
-import 'package:eliyah_express_delivery/features/language/domain/models/language_model.dart';
-import 'package:eliyah_express_delivery/util/images.dart';
+import 'package:eliyah_express/features/language/domain/models/language_model.dart';
+import 'package:eliyah_express/util/images.dart';
 
 class AppConstants {
   static const String appName = 'Eliyah Express';

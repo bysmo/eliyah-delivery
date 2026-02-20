@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/helper/route_helper.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
+import 'package:eliyah_express/helper/route_helper.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/styles.dart';
 import 'package:flutter/material.dart';
 
 class CustomAppBarWidget extends StatelessWidget implements PreferredSizeWidget {

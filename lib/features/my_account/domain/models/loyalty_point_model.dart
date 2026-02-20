@@ -1,4 +1,4 @@
-import 'package:eliyah_express_delivery/features/my_account/domain/models/loyalty_report_model.dart';
+import 'package:eliyah_express/features/my_account/domain/models/loyalty_report_model.dart';
 
 class LoyaltyPointModel {
   int? total;

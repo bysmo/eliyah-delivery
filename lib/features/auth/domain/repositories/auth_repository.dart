@@ -2,11 +2,11 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:eliyah_express_delivery/api/api_client.dart';
-import 'package:eliyah_express_delivery/features/auth/domain/models/delivery_man_body_model.dart';
-import 'package:eliyah_express_delivery/features/auth/domain/models/vehicle_model.dart';
-import 'package:eliyah_express_delivery/features/auth/domain/repositories/auth_repository_interface.dart';
-import 'package:eliyah_express_delivery/util/app_constants.dart';
+import 'package:eliyah_express/api/api_client.dart';
+import 'package:eliyah_express/features/auth/domain/models/delivery_man_body_model.dart';
+import 'package:eliyah_express/features/auth/domain/models/vehicle_model.dart';
+import 'package:eliyah_express/features/auth/domain/repositories/auth_repository_interface.dart';
+import 'package:eliyah_express/util/app_constants.dart';
 
 class AuthRepository implements AuthRepositoryInterface {
   final ApiClient apiClient;

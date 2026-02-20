@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/earning_report_model.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/loyalty_report_model.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/referral_report_model.dart';
-import 'package:eliyah_express_delivery/features/my_account/domain/models/withdraw_request_model.dart';
-import 'package:eliyah_express_delivery/interface/repository_interface.dart';
+import 'package:eliyah_express/features/my_account/domain/models/earning_report_model.dart';
+import 'package:eliyah_express/features/my_account/domain/models/loyalty_report_model.dart';
+import 'package:eliyah_express/features/my_account/domain/models/referral_report_model.dart';
+import 'package:eliyah_express/features/my_account/domain/models/withdraw_request_model.dart';
+import 'package:eliyah_express/interface/repository_interface.dart';
 
 abstract class MyAccountRepositoryInterface implements RepositoryInterface {
   Future<dynamic> makeCollectCashPayment(double amount, String paymentGatewayName);

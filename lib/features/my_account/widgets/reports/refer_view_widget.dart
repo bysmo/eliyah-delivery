@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
-import 'package:eliyah_express_delivery/features/my_account/controllers/my_account_controller.dart';
-import 'package:eliyah_express_delivery/features/my_account/widgets/reports/earning_report_card.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
+import 'package:eliyah_express/features/my_account/controllers/my_account_controller.dart';
+import 'package:eliyah_express/features/my_account/widgets/reports/earning_report_card.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/styles.dart';
 class ReferViewWidget extends StatelessWidget {
   final MyAccountController myAccountController;
   const ReferViewWidget({super.key, required this.myAccountController});

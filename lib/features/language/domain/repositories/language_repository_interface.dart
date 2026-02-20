@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:eliyah_express_delivery/interface/repository_interface.dart';
+import 'package:eliyah_express/interface/repository_interface.dart';
 
 abstract class LanguageRepositoryInterface extends RepositoryInterface {
   void updateHeader(Locale locale);

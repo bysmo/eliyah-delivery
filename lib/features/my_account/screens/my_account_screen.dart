@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/features/disbursement/controllers/disbursement_controller.dart';
-import 'package:eliyah_express_delivery/features/my_account/widgets/account/my_point_view.dart';
-import 'package:eliyah_express_delivery/features/my_account/widgets/account/wallet_overview_widget.dart';
-import 'package:eliyah_express_delivery/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_express_delivery/features/my_account/controllers/my_account_controller.dart';
-import 'package:eliyah_express_delivery/util/dimensions.dart';
-import 'package:eliyah_express_delivery/util/styles.dart';
-import 'package:eliyah_express_delivery/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_express/features/disbursement/controllers/disbursement_controller.dart';
+import 'package:eliyah_express/features/my_account/widgets/account/my_point_view.dart';
+import 'package:eliyah_express/features/my_account/widgets/account/wallet_overview_widget.dart';
+import 'package:eliyah_express/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_express/features/my_account/controllers/my_account_controller.dart';
+import 'package:eliyah_express/util/dimensions.dart';
+import 'package:eliyah_express/util/styles.dart';
+import 'package:eliyah_express/common/widgets/custom_app_bar_widget.dart';
 
 class MyAccountScreen extends StatefulWidget {
   const MyAccountScreen({super.key});

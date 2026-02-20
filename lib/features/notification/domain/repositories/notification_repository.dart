@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:eliyah_express_delivery/api/api_client.dart';
-import 'package:eliyah_express_delivery/features/notification/domain/models/notification_model.dart';
-import 'package:eliyah_express_delivery/features/notification/domain/repositories/notification_repository_interface.dart';
-import 'package:eliyah_express_delivery/util/app_constants.dart';
+import 'package:eliyah_express/api/api_client.dart';
+import 'package:eliyah_express/features/notification/domain/models/notification_model.dart';
+import 'package:eliyah_express/features/notification/domain/repositories/notification_repository_interface.dart';
+import 'package:eliyah_express/util/app_constants.dart';
 
 class NotificationRepository implements NotificationRepositoryInterface {
   final ApiClient apiClient;

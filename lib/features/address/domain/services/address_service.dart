@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/features/address/domain/models/zone_model.dart';
-import 'package:eliyah_express_delivery/features/address/domain/repositories/address_repository_interface.dart';
-import 'package:eliyah_express_delivery/features/address/domain/services/address_service_interface.dart';
+import 'package:eliyah_express/features/address/domain/models/zone_model.dart';
+import 'package:eliyah_express/features/address/domain/repositories/address_repository_interface.dart';
+import 'package:eliyah_express/features/address/domain/services/address_service_interface.dart';
 
 class AddressService implements AddressServiceInterface {
   final AddressRepositoryInterface addressRepositoryInterface;

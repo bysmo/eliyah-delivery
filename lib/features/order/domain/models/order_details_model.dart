@@ -1,4 +1,4 @@
-import 'package:eliyah_express_delivery/features/order/domain/models/order_model.dart';
+import 'package:eliyah_express/features/order/domain/models/order_model.dart';
 
 class OrderDetailsModel {
   int? id;

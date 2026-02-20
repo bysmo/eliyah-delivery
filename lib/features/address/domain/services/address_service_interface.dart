@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:eliyah_express_delivery/features/address/domain/models/zone_model.dart';
+import 'package:eliyah_express/features/address/domain/models/zone_model.dart';
 
 abstract class AddressServiceInterface {
   Future<List<ZoneModel>?> getZoneList();
